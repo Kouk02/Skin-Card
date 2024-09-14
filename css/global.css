@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 button {
     cursor: pointer;
 }
@@ -5,6 +13,9 @@ button {
 *,
 ::after,
 ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -64,4 +75,13 @@ li {
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+
+:root {
+--dark-gray: #1c1d1e;
+--dark-yellow: #877044;
+--low-orange: #9a6242;
+--strong-orange: #ae5440;
+--low-red: #c2463f;
 }
